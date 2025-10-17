@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Task</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Details</h1>
+        <div class="task-view">
+            <p><strong>Task:</strong> {{ task }}</p>
+            <a href="/" class="back-btn">Back</a>
+        </div>
+    </div>
+</body>
+</html>
